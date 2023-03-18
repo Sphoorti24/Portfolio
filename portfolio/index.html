@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Portfolio Site" />
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="sphoorti.jpg"
+              alt="Sphoorti"
+              class="header__logo-img"
+            />
+          </div>
+
+          <span class="header__logo-sub">Sphoorti Yamakanamardi</span>
+        </div>
+
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="#home" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#about" class="header__link">About </a>
+            </li>
+
+            <li class="header__link-wrapper">
+              <a href="#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </header>
+
+    <section class="home-hero" id="home">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Sphoorti Yamakanamardi</h1>
+    
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills
+            for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector
+          </p>
+        </div>
+      </div>
+
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/sphoorti-yamakanamardi-75345924b" class="home-hero__social-icon-link">
+            <img
+              src="linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                My name is sphoorti Yamakanamardi,  
+                I am basically from karnataka but last 15 years we were in Maharashtra and it has been 4 years we have shifted to Noida.
+                I am in IT branch from ABES Engineering College. 
+                I secured 90% in 10th standard with ICSE board and 87% in my 12th with CBSE board and
+                in engineering my current sgpa is 8.38 .
+                My technical skills involves programming in python,C,database and
+                I am also familiar with web development,Word,Excel
+                and basic machine learning algorithms.
+                Coming to my extra curriculum activities I love photography, videography, I also like to draw paint ,
+                I am Library Advisory Committee Head for IT 3rd year of our College.
+                I consider myself as a focused person and I always love to learn new things.
+                And lastly I would like to say that  why not start the journey of my success by the success of joining your company.
+                Thank you so much.
+              </p>
+              
+              
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Basic ML Algorithms</div>
+              <div class="skills__skill">Word</div>
+              <div class="skills__skill">Excel</div>
+              <div class="skills__skill">Python Programming</div>
+              <div class="skills__skill">C Language</div>
+              <div class="skills__skill">App development using MIT App Inventor</div>
+            </div>
+          </div>
+        
+
+        </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        </h2>
+        
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+        
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+        
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+        
+          </form>
+        </div>
+      </div>
+    </section>
+  
+    
+  </body>
+</html>
